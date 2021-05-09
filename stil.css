@@ -3,9 +3,15 @@
 body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
-  color: #505962;
+  color: #252a30;
 }
 
+.offset:before {
+  display: block;
+  content: "";
+  height: fit-content;
+  margin-top: -4rem;
+}
 /*Navigasyon*/
 
 .navbar {
@@ -14,6 +20,9 @@ body {
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-brand img {
+  height: 2.5rem;
 }
 .navbar-nav li {
   padding-right: 0.7rem;
@@ -26,18 +35,24 @@ body {
 .navbar-dark .navbar-nav .navbar-link:hover {
   color: #1ebba3;
 }
+.dropdown-menu {
+  color: #252a30;
+}
+.dropdown-item {
+  color: black;
+}
 
 /* Ana Sayfa */
-
 .home-inner {
   background-image: url(img/Borobudur.jpg);
-  height: 100vh;
+  height: 120vh;
+  width: 250vh;
 }
 .caption {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 30%;
+  top: 40%;
   z-index: 1;
   color: white;
   text-transform: uppercase;
@@ -59,4 +74,109 @@ body {
   border-radius: 0;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
+}
+
+/*Hakkimda*/
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem; /*2rem idi*/
+  padding-bottom: 2rem;
+}
+.narrow h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #1ebba3;
+  border-color: #1ebba3;
+}
+.btn-secondary:hover {
+  background-color: #189582;
+  border-color: #189582;
+}
+
+/* ozgecmis */
+.jumbotron {
+  margin-bottom: 0;
+  padding-top: 2rem 0 2rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #1794ce;
+  margin: 0 auto 2rem;
+}
+.ozgecmisim p {
+  font-size: 1.1rem;
+}
+
+/* Memleketim */
+.fixed-background {
+  background-image: url(img/borobudur1.jpg);
+  z-index: -1;
+  padding-bottom: 3rem;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+.menu {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.menu:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* ilgi alanlarim */
+.ilgi-alanlarim img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/*Iletisim*/
+footer {
+  background-color: #252a30;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+hr.socket {
+  width: 100%;
+  border-top: 0.2rem solid #666b71;
+  margin-top: 3rem;
 }
