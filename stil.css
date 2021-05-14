@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+/*ANA SAYFA*/
 body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
@@ -13,7 +14,6 @@ body {
   margin-top: -4rem;
 }
 /*Navigasyon*/
-
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -41,7 +41,6 @@ body {
 .dropdown-item {
   color: black;
 }
-
 /* Ana Sayfa */
 .home-inner {
   background-image: url(img/Borobudur.jpg);
@@ -89,20 +88,9 @@ body {
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  padding: 0.6rem 1.2rem;
-  margin: 1rem;
-  color: white;
-  background-color: #1ebba3;
-  border-color: #1ebba3;
-}
-.btn-secondary:hover {
-  background-color: #189582;
-  border-color: #189582;
+.hakkimda img {
+  width: 200px;
+  border-radius: 50%;
 }
 
 /* ozgecmis */
@@ -124,9 +112,8 @@ h3.heading {
   margin: 0 auto 2rem;
 }
 .ozgecmisim p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
-
 /* Memleketim */
 .fixed-background {
   background-image: url(img/borobudur1.jpg);
@@ -154,18 +141,16 @@ h3.heading {
   background-color: transparent;
   text-decoration: none;
 }
-
 /* ilgi alanlarim */
 .ilgi-alanlarim img {
   width: 200px;
   border-radius: 50%;
 }
-
 /*Iletisim*/
 footer {
   background-color: #252a30;
   color: white;
-  padding: 2rem 0 2rem;
+  padding-bottom: 1rem;
   margin-top: 1rem;
 }
 footer img {
@@ -178,5 +163,182 @@ footer a {
 hr.socket {
   width: 100%;
   border-top: 0.2rem solid #666b71;
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+/* SON ANA SAYFA*/
+
+/* OTURUM/LOGİN SAYFASI*/
+.login-body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(img/borobudur1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.loginbox {
+  width: 320px;
+  height: 420px;
+  border-radius: 20px;
+  background: rgba(22, 21, 21, 0.815);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.login-title {
+  margin: 0;
+  padding: 0 0 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+}
+.loginbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #e24c27;
+  color: black;
+}
+.loginbox a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  color: darkgrey;
+}
+/* SON OTURUM SAYFASI*/
+
+/* ÖZGEÇMİŞ SAYFASI*/
+.ozgecmis-header {
+  background-image: url(img/borobudur1.jpg);
+  color: white;
+  margin-top: 4rem;
+  padding: 3rem 3rem;
+  text-transform: uppercase;
+}
+.tum-ozgecmis {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+.tum-ozgecmis > h1,
+.ozgecmis {
+  margin: 10px;
+  padding: 5px;
+}
+.ozgecmis {
+  background: white;
+}
+.ozgecmis p {
+  margin: 4px;
+  font-size: 90%;
+}
+/*SON OZGECMIS SAYFASI*/
+
+/*SEHIR SAYFASI*/
+.row-sehir::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html {
+  font-family: "Lato", sans-serif;
+}
+.sehir-header {
+  background-image: url(img/borobudur1.jpg);
+  color: white;
+  margin-top: 4rem;
+  padding: 3rem 3rem;
+  text-transform: uppercase;
+}
+.sehir-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sehir-menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #4fa9c0;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.sehir-menu li:hover {
+  background-color: #0099cc;
+}
+.aside {
+  background-color: #4fa9c0;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+/*SON SEHIR SAYFASI*/
+
+/*SEHIR SAYFASI*/
+.row-miras::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html {
+  font-family: "Lato", sans-serif;
+}
+.miras-header {
+  background-image: url(img/borobudur1.jpg);
+  color: white;
+  margin-top: 4rem;
+  padding: 3rem 3rem;
+  text-transform: uppercase;
+}
+.miras-img {
+  width: 20rem;
+  margin: 0.5rem 2rem 0.5rem 0;
+}
+.miras-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.miras-menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #4fa9c0;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.miras-menu li:hover {
+  background-color: #0099cc;
 }
