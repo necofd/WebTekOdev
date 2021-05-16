@@ -239,6 +239,12 @@ input[type="password"] {
 /* SON OTURUM SAYFASI*/
 
 /* ÖZGEÇMİŞ SAYFASI*/
+.narrow-ozgecmis {
+  width: 90%;
+  margin: 1.5rem auto;
+  padding-top: 2rem; /*2rem idi*/
+  padding-bottom: 2rem;
+}
 .ozgecmis-header {
   background-image: url(img/borobudur1.jpg);
   color: white;
@@ -342,3 +348,35 @@ html {
 .miras-menu li:hover {
   background-color: #0099cc;
 }
+/*SON SEHIR SAYFASI*/
+
+/*İLGİ ALANLARIM SAYFASI*/
+.narrow-ilgi-alanlarim {
+  width: 90%;
+  margin: 1.5rem auto;
+  padding-top: 2rem; /*2rem idi*/
+  padding-bottom: 2rem;
+}
+.ilgi-alanlarim-header {
+  background-image: url(img/borobudur1.jpg);
+  color: white;
+  margin-top: 4rem;
+  padding: 3rem 3rem;
+  text-transform: uppercase;
+}
+/*SON İLGİ ALANLARIM SAYFASI*/
+
+/*İLETİŞİM SAYFASI*/
+.container {
+  margin-top: 5rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#temizle {
+  margin: 1rem;
+}
+#gonder {
+  margin: 1rem;
+}
+/*SON İLETİŞİM SAYFASI*/
