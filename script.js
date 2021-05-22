@@ -1,34 +1,4 @@
-/*
-const form = document.querySelector('form');
-const nameInput = document.querySelector(
-    'input[name="adi"]'
-);
-
-let isFormValid = false;
-
-const validateInputs = () => {
-    nameInput.classList.remove("invalid");
-    nameInput.nextElementSibling.classList.add("hidden");
-    isFormValid = true;
-
-    if(!nameInput.value) {
-        nameInput.classList.add("invalid");
-        nameInput.nextElementSibling.classList.remove("hidden");
-    }
-};
-
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    console.log("here");
-    if(isFormValid) {
-        form.remove();
-    }
-});
-
-nameInput.addEventListener("input", () => {
-    validateInputs();
-});*/
-
+/*Iletisim Sayfasi icin*/
 function validation() {
     var ad = document.getElementById("ad").value;
     var soyad = document.getElementById("soyad").value;

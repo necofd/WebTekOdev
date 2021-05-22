@@ -41,7 +41,7 @@
                     <a href="iletisim.html" class="nav-link">İletişim</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a href="login.html" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
+                    <a href="index.php" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
                 </li>
             </ul>
         </div>
@@ -55,48 +55,25 @@
 
     <div class="narrow-ilgi-alanlarim">
         <div class="col-md-12">
-                <section class="ozgecmis">
-                    <h2>Kişisel Bilgiler</h2>
-                    <hr>
-                    <p><strong>İsim:</strong> Muhammad Najmuddin Farid</p>
-                    <p><strong>Cinsiyet:</strong> Erkek</p>
-                    <p><strong>Doğum Yeri:</strong> Magelang</p>
-                    <p><strong>Doğum Tarihi:</strong> 22/08/2001</p>
-                    <p><strong>Adres:</strong> Muhammad Najmuddin Farid</p>
-                    <p><strong>Telefon:</strong> +90 552 614 4725</p>
-                    <p><strong>E-posta:</strong> farid.najmuddins@gmail.com</p>
-                </section>
-                <section class="ozgecmis">
-                    <h2>Eğitim Bilgileri</h2>
-                    <hr>
-                    <p><strong>2007-2013:</strong> SD IT Ihsanul Fikri Magelang</p>
-                    <p><strong>2014-2016:</strong> SMP IT Ihsanul Fikri Magelang</p>
-                    <p><strong>2017-2019:</strong> SMA IT Ihsanul Fikri Magelang</p>
-                    <p><strong>2019-2020:</strong> İstanbul Sabahattin Zaim Üniversitesi Türkçe Eğitim Merkezi</p>
-                    <p><strong>2020-Günümüz:</strong> Sakarya Üniversitesi - Bilgisayar Mühendisliği</p>
-                </section>
-                <section class="ozgecmis">
-                    <h2>Etkinlikler</h2>
-                    <hr>
-                    <p>İHH İnsanı Yardım Vakfi</p>
-                    <p>SELAM Uluslararası Öğrenci Derneği</p>
-                    <p>PPI Sakarya</p>
-                </section>
-                <section class="ozgecmis">
-                    <h2>Dil Bilgilerim</h2>
-                    <hr>
-                    <p><strong>Ana Dil:</strong> Endonezya Dili</p>
-                    <p>
-                        <strong>Yabancı Diller:</strong>
-                        <ul>
-                            <li>İngilizce</li>
-                            <li>Türkçe</li>
-                            <li>Arapça</li>
-                            <li>Fransızca</li>
-                            <li>Japonca</li>
-                        </ul>
-                    </p>
-                </section>
+            <section class="ozgecmis">
+                <h2>Sevdiğim Hayvan</h2>
+                <hr>
+                <p>Hayvan resimlerini görmek için 'Gör' butona basınız</p>
+                <div id="cat_result" class="results">
+                    <div class="result">
+                        <p>resim yer tutucusu</p>
+                    </div>
+                </div>
+
+                <div class="animal-buttons">
+                    <button id="cat_btn">Gör</button>
+                </div>
+            </section>
+            <section class="ozgecmis">
+                <h2>Hobilerim</h2>
+                <hr>
+                <p></p>
+            </section>
         </div>
     </div>
     <!--ilgi-alanlarım bitiyor-->   
@@ -108,7 +85,7 @@
                 <div class="col-md-5 text-center">
                     <a href="index.html"><img src="img/Logom.png" width="150px" alt="Logo"></a><!--Logoyu freelogodesign.com'den yapılır-->
                     <br>
-                    <a href="#" class="menu"><strong>İletişim</strong></a>
+                    <a href="iletisim.html" class="menu"><strong>İletişim</strong></a>
                     <p>05526144725<br>farid.najmuddins@gmail.com</p>
                 </div>
 
@@ -120,6 +97,7 @@
     <!--İletişim bitiyor-->
 
     <!-- Bootstrap JS -->
+    <script src="api.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

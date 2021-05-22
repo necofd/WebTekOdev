@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr-TR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="iE=edge">
@@ -41,7 +41,7 @@
                     <a href="iletisim.html" class="nav-link">İletİşİm</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a href="login.html" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
+                    <a href="index.php" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
                 </li>
             </ul>
         </div>
@@ -55,7 +55,7 @@
     </div>
 
     <div class="container" id="hatali_mesaj">
-        <form action="iletisim.php" method="POST" onsubmit="return validation()" class="col-md-10 text-left m-auto iletisim">
+        <form action="iletisimForm.php" method="POST" onsubmit="return validation()" class="col-md-10 text-left m-auto iletisim">
             <div class="form-group row">
                 <label for="" class="col-md-4 align-self-center">Ad : </label>
                 <input type="text" class="form-control col-md-8" id="ad" name="ad">
@@ -70,10 +70,10 @@
             </div>
             <div class="form-group row">
                 <label for="" class="col-md-4 align-self-center">Mesaj : </label>
-                <textarea name="mesaj" id="mesaj" cols="30" rows="10" class="form-control col-md-8"></textarea>
-            <div class="form-group row">
-                <button type="reset" id="temizle" class="col-md-4 btn btn-primary buton">Temizle</button>
-                <button type="submit" id="gonder" name="gonder" class="col-md-4 btn btn-primary buton">Gönder</button>
+                <textarea cols="30" rows="10" class="form-control col-md-8" id="mesaj" name="mesaj"></textarea>
+            <div class="form-group row aligm-self-center iletisim-button">
+                <button type="reset" id="temizle" class="col-md-4 btn btn-primary buton btn-lg">Temizle</button>
+                <button type="submit" id="gonder" name="gonder" class="col-md-4 btn btn-primary buton btn-lg">Gönder</button>
             </div>
         </form>
     </div>

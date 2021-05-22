@@ -114,6 +114,7 @@ h3.heading {
 .ozgecmisim p {
   font-size: 1.5rem;
 }
+
 /* Memleketim */
 .fixed-background {
   background-image: url(img/borobudur1.jpg);
@@ -141,11 +142,6 @@ h3.heading {
   background-color: transparent;
   text-decoration: none;
 }
-/* ilgi alanlarim */
-.ilgi-alanlarim img {
-  width: 200px;
-  border-radius: 50%;
-}
 /*Iletisim*/
 footer {
   background-color: #252a30;
@@ -165,6 +161,25 @@ hr.socket {
   border-top: 0.2rem solid #666b71;
   margin-top: 1rem;
 }
+
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.2rem;
+  }
+  .caption h3 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .narrow p {
+    font-size: 0.9rem;
+  }
+}
 /* SON ANA SAYFA*/
 
 /* OTURUM/LOGİN SAYFASI*/
@@ -179,7 +194,7 @@ hr.socket {
 }
 .loginbox {
   width: 320px;
-  height: 420px;
+  height: 490px;
   border-radius: 20px;
   background: rgba(22, 21, 21, 0.815);
   color: #fff;
@@ -207,6 +222,7 @@ hr.socket {
   margin-bottom: 20px;
 }
 .loginbox input[type="text"],
+input[type="email"],
 input[type="password"] {
   border: none;
   border-bottom: 1px solid #fff;
@@ -216,7 +232,47 @@ input[type="password"] {
   color: white;
   font-size: 16px;
 }
-.loginbox input[type="submit"] {
+.loginbox button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 15rem;
+  background: #fb2525;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox button:hover {
+  cursor: pointer;
+  background: #e24c27;
+  color: black;
+}
+.loginbox a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.loginbox a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.error {
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+.home-php h1 {
+  text-align: center;
+  color: #fff;
+}
+.home-php a {
   border: none;
   outline: none;
   height: 40px;
@@ -225,17 +281,12 @@ input[type="password"] {
   font-size: 18px;
   border-radius: 20px;
 }
-.loginbox input[type="submit"]:hover {
+.home-php a:hover {
   cursor: pointer;
   background: #e24c27;
   color: black;
 }
-.loginbox a {
-  text-decoration: none;
-  font-size: 13px;
-  line-height: 20px;
-  color: darkgrey;
-}
+
 /* SON OTURUM SAYFASI*/
 
 /* ÖZGEÇMİŞ SAYFASI*/
@@ -311,9 +362,92 @@ html {
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+/* telefonlar için: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* Tabletler için: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* PCler için: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
 /*SON SEHIR SAYFASI*/
 
-/*SEHIR SAYFASI*/
+/*MIRAS SAYFASI*/
 .row-miras::after {
   content: "";
   clear: both;
@@ -348,7 +482,7 @@ html {
 .miras-menu li:hover {
   background-color: #0099cc;
 }
-/*SON SEHIR SAYFASI*/
+/*SON MIRAS SAYFASI*/
 
 /*İLGİ ALANLARIM SAYFASI*/
 .narrow-ilgi-alanlarim {
@@ -364,6 +498,45 @@ html {
   padding: 3rem 3rem;
   text-transform: uppercase;
 }
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result {
+  background-color: #76d2e988;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 350px;
+  width: 300px;
+}
+.result img {
+  object-fit: cover;
+  width: 80px;
+}
+.animal-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: #479cec;
+  border: 0;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  width: 80px;
+}
+button:active {
+  transform: scale(0.98);
+}
+button:focus {
+  outline: none;
+}
 /*SON İLGİ ALANLARIM SAYFASI*/
 
 /*İLETİŞİM SAYFASI*/
@@ -373,10 +546,8 @@ html {
   text-transform: uppercase;
   font-weight: bold;
 }
-#temizle {
+.iletisim-button {
   margin: 1rem;
-}
-#gonder {
-  margin: 1rem;
+  justify-content: center;
 }
 /*SON İLETİŞİM SAYFASI*/
