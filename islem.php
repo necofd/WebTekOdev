@@ -23,7 +23,7 @@ if (isset($_POST['kayit'])) {
 
         if ($ekle) {
             echo "Kayıt başarıyla gerçekleşti, yönlendiriyorsunuz";
-            header('Refresh:2; index.php');
+            header('Refresh:2; login.php');
         } else {
             echo "Bir hata oluştu. Lütfen tekrar kontrol ediniz";
         }
@@ -54,7 +54,8 @@ if (isset($_POST['giris'])) {
             echo "\nBaşarıyla giriş yaptınız, yönlendiriyorsunuz";
             header('Refresh:2; index.html');
         } else {
-            echo "Bir hata oluştu. Lütfen tekrar kontrol ediniz";
+            echo "Kullanıcı adı veya şifre yanlıştır. Lütfen tekrar kontrol ediniz (Giriş sayfaya yönlendiriyorsunuz)";
+            header('Refresh:2; login.php');
         }
     }
 }

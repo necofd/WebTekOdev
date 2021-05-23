@@ -41,7 +41,7 @@
                     <a href="iletisim.html" class="nav-link">İletİşİm</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a href="index.php" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
+                    <a href="login.php" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
                 </li>
             </ul>
         </div>
@@ -55,26 +55,27 @@
     </div>
 
     <div class="container" id="hatali_mesaj">
-        <form action="iletisimForm.php" method="POST" onsubmit="return validation()" class="col-md-10 text-left m-auto iletisim">
-            <div class="form-group row">
-                <label for="" class="col-md-4 align-self-center">Ad : </label>
-                <input type="text" class="form-control col-md-8" id="ad" name="ad">
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-md-4 align-self-center">Soyad : </label>
-                <input type="text" class="form-control col-md-8" id="soyad" name="soyad">
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-md-4 align-self-center">E-posta : </label>
-                <input type="email" class="form-control col-md-8" id="email" name="email">
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-md-4 align-self-center">Mesaj : </label>
-                <textarea cols="30" rows="10" class="form-control col-md-8" id="mesaj" name="mesaj"></textarea>
-            <div class="form-group row aligm-self-center iletisim-button">
-                <button type="reset" id="temizle" class="col-md-4 btn btn-primary buton btn-lg">Temizle</button>
-                <button type="submit" id="gonder" name="gonder" class="col-md-4 btn btn-primary buton btn-lg">Gönder</button>
-            </div>
+        <form action="iletisimForm.php" method="POST" class="table">
+            <table cellspacing="10">
+                <tr>
+                    <td>Ad</td><td>:</td>
+                    <td><input type="text" class="form-control" id="ad" name="ad"></td>
+                </tr>
+                <tr>
+                    <td>Soyad</td><td>:</td>
+                    <td><input type="text" class="form-control" id="soyad" name="soyad"></td>
+                </tr>
+                <tr>
+                    <td>E-Posta</td><td>:</td>
+                    <td><input type="email" class="form-control" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Mesaj</td><td>:</td>
+                    <td><textarea cols="30" rows="10" class="form-control" id="mesaj" name="mesaj"></textarea></td>
+                </tr>
+            </table>
+                <input type="submit" value="Gönder" name="gonder" id="gonder" class="btn btn-primary">
+                <input type="reset" value="Temizle" name="gonder" id="temizle" class="btn btn-primary">
         </form>
     </div>
     <!--İletİşİm formu bitiyor-->

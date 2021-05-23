@@ -21,32 +21,40 @@ body {
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.6) !important;
 }
+
 .navbar-brand img {
   height: 2.5rem;
 }
+
 .navbar-nav li {
   padding-right: 0.7rem;
 }
+
 .navbar-dark .navbar-nav .navbar-link {
   color: white;
   padding-top: 0.8rem;
 }
+
 .navbar-dark .navbar-nav .navbar-link.active,
 .navbar-dark .navbar-nav .navbar-link:hover {
   color: #1ebba3;
 }
+
 .dropdown-menu {
   color: #252a30;
 }
+
 .dropdown-item {
   color: black;
 }
 /* Ana Sayfa */
+
 .home-inner {
   background-image: url(img/Borobudur.jpg);
   height: 120vh;
   width: 250vh;
 }
+
 .caption {
   width: 100%;
   height: 100%;
@@ -56,6 +64,7 @@ body {
   color: white;
   text-transform: uppercase;
 }
+
 .caption h1 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -63,11 +72,13 @@ body {
   text-shadow: 0.1rem 0.1rem 0.8rem black;
   padding-bottom: 1rem;
 }
+
 .caption h3 {
   font-size: 2rem;
   text-shadow: 0.1rem 0.1rem 0.5rem black;
   padding-bottom: 1.6rem;
 }
+
 .btn-lg {
   border-width: medium;
   border-radius: 0;
@@ -82,12 +93,14 @@ body {
   padding-top: 2rem; /*2rem idi*/
   padding-bottom: 2rem;
 }
+
 .narrow h3 {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
+
 .hakkimda img {
   width: 200px;
   border-radius: 50%;
@@ -99,18 +112,21 @@ body {
   padding-top: 2rem 0 2rem;
   border-radius: 0;
 }
+
 h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
+
 .heading-underline {
   width: 3rem;
   height: 0.2rem;
   background-color: #1794ce;
   margin: 0 auto 2rem;
 }
+
 .ozgecmisim p {
   font-size: 1.5rem;
 }
@@ -121,27 +137,33 @@ h3.heading {
   z-index: -1;
   padding-bottom: 3rem;
 }
+
 .dark {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 7rem 2rem;
 }
+
 .fixed-background h3 {
   margin-bottom: 2rem;
 }
+
 .fixed-background p {
   margin-top: 1.5rem;
 }
+
 .menu {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
+
 .menu:hover {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
+
 /*Iletisim*/
 footer {
   background-color: #252a30;
@@ -149,13 +171,16 @@ footer {
   padding-bottom: 1rem;
   margin-top: 1rem;
 }
+
 footer img {
   height: 3rem;
   margin: 1.5rem 0;
 }
+
 footer a {
   color: white;
 }
+
 hr.socket {
   width: 100%;
   border-top: 0.2rem solid #666b71;
@@ -192,6 +217,7 @@ hr.socket {
   background-size: cover;
   background-position: center;
 }
+
 .loginbox {
   width: 320px;
   height: 490px;
@@ -205,6 +231,7 @@ hr.socket {
   box-sizing: border-box;
   padding: 70px 30px;
 }
+
 .login-title {
   margin: 0;
   padding: 0 0 20px;
@@ -212,15 +239,18 @@ hr.socket {
   text-align: center;
   font-size: 22px;
 }
+
 .loginbox p {
   margin: 0;
   padding: 0;
   font-weight: bold;
 }
+
 .loginbox input {
   width: 100%;
   margin-bottom: 20px;
 }
+
 .loginbox input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -232,6 +262,7 @@ input[type="password"] {
   color: white;
   font-size: 16px;
 }
+
 .loginbox button {
   display: flex;
   justify-content: center;
@@ -244,21 +275,25 @@ input[type="password"] {
   font-size: 18px;
   border-radius: 20px;
 }
+
 .loginbox button:hover {
   cursor: pointer;
   background: #e24c27;
   color: black;
 }
+
 .loginbox a {
   text-decoration: none;
   font-size: 15px;
   line-height: 20px;
   color: darkgrey;
 }
+
 .loginbox a:hover {
   cursor: pointer;
   color: #fff;
 }
+
 .error {
   background: #f2dede;
   color: #a94442;
@@ -268,10 +303,12 @@ input[type="password"] {
   margin: 20px auto;
   text-align: center;
 }
+
 .home-php h1 {
   text-align: center;
   color: #fff;
 }
+
 .home-php a {
   border: none;
   outline: none;
@@ -281,6 +318,7 @@ input[type="password"] {
   font-size: 18px;
   border-radius: 20px;
 }
+
 .home-php a:hover {
   cursor: pointer;
   background: #e24c27;
@@ -296,6 +334,7 @@ input[type="password"] {
   padding-top: 2rem; /*2rem idi*/
   padding-bottom: 2rem;
 }
+
 .ozgecmis-header {
   background-image: url(img/borobudur1.jpg);
   color: white;
@@ -303,20 +342,24 @@ input[type="password"] {
   padding: 3rem 3rem;
   text-transform: uppercase;
 }
-.tum-ozgecmis {
+
+.ozgecmis {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 5px;
   background-color: lightgray;
 }
+
 .tum-ozgecmis > h1,
 .ozgecmis {
   margin: 10px;
   padding: 5px;
 }
+
 .ozgecmis {
   background: white;
 }
+
 .ozgecmis p {
   margin: 4px;
   font-size: 90%;
@@ -329,9 +372,11 @@ input[type="password"] {
   clear: both;
   display: table;
 }
+
 html {
   font-family: "Lato", sans-serif;
 }
+
 .sehir-header {
   background-image: url(img/borobudur1.jpg);
   color: white;
@@ -339,11 +384,13 @@ html {
   padding: 3rem 3rem;
   text-transform: uppercase;
 }
+
 .sehir-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .sehir-menu li {
   padding: 8px;
   margin-bottom: 7px;
@@ -351,9 +398,11 @@ html {
   color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
 .sehir-menu li:hover {
   background-color: #0099cc;
 }
+
 .aside {
   background-color: #4fa9c0;
   padding: 15px;
@@ -453,9 +502,11 @@ html {
   clear: both;
   display: table;
 }
+
 html {
   font-family: "Lato", sans-serif;
 }
+
 .miras-header {
   background-image: url(img/borobudur1.jpg);
   color: white;
@@ -463,15 +514,18 @@ html {
   padding: 3rem 3rem;
   text-transform: uppercase;
 }
+
 .miras-img {
   width: 20rem;
   margin: 0.5rem 2rem 0.5rem 0;
 }
+
 .miras-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .miras-menu li {
   padding: 8px;
   margin-bottom: 7px;
@@ -479,6 +533,7 @@ html {
   color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
 .miras-menu li:hover {
   background-color: #0099cc;
 }
@@ -491,6 +546,7 @@ html {
   padding-top: 2rem; /*2rem idi*/
   padding-bottom: 2rem;
 }
+
 .ilgi-alanlarim-header {
   background-image: url(img/borobudur1.jpg);
   color: white;
@@ -498,11 +554,39 @@ html {
   padding: 3rem 3rem;
   text-transform: uppercase;
 }
+
+.ilgi-alanlarim {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.tum-ilgi-alanlarim > h1,
+.ilgi-alanlarim {
+  margin: 10px;
+  padding: 5px;
+}
+
+.ilgi-alanlarim h1 {
+  text-align: center;
+}
+
+.ilgi-alanlarim {
+  background: white;
+}
+
+.ilgi-alanlarim p {
+  margin: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
 .results {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .result {
   background-color: #76d2e988;
   display: flex;
@@ -512,15 +596,18 @@ html {
   height: 350px;
   width: 300px;
 }
+
 .result img {
   object-fit: cover;
   width: 80px;
 }
+
 .animal-buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 button {
   background-color: #479cec;
   border: 0;
@@ -531,11 +618,57 @@ button {
   margin: 10px;
   width: 80px;
 }
+
 button:active {
   transform: scale(0.98);
 }
+
 button:focus {
   outline: none;
+}
+
+.container-anime {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.form-inline {
+  justify-content: center;
+}
+
+.kemicofa-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  justify-content: stretch;
+}
+
+.kemicofa-row > * {
+  flex-basis: 20rem;
+  flex-shrink: 0;
+}
+
+.kemicofa-row .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.kemicofa-row .card > .card-content {
+  flex-grow: 1;
+}
+
+.kemicofa-row .card > .card-image {
+  flex-basis: 20rem;
+  flex-shrink: 0;
+  overflow-y: hidden;
+  background-color: white;
+}
+
+.body-anime {
+  margin: 0;
+  overflow-x: hidden;
 }
 /*SON İLGİ ALANLARIM SAYFASI*/
 
@@ -546,6 +679,14 @@ button:focus {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.table input[type="submit"],
+input[type="reset"] {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .iletisim-button {
   margin: 1rem;
   justify-content: center;

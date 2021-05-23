@@ -11,7 +11,7 @@
 </head>
 
 <body class="login-body">
-    <a href="index.html"><img src="img/Logom.png" alt="logom"></a>
+    <img src="img/Logom.png" alt="logom">
     <div class="loginbox">
         <h1 class="login-title">Giriş</h1>
         <form action="islem.php" method="POST">
@@ -19,7 +19,7 @@
             <input type="email" name="username" placeholder="E-posta adresiniz girin">
             <p>Şifre</p>
             <input type="password" name="password" placeholder="Şifre girin">
-            <button href="index.php" name="giris">Giriş Yap</button>
+            <button href="login.php" name="giris">Giriş Yap</button>
         </form>
         <a href="kayit.php">Kayıt ol</a>
     </div>

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>İlgi Alanlarım</title>
-    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="./stil.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 <body>
     <!--Navigasiyon başlıyor-->
@@ -41,7 +42,7 @@
                     <a href="iletisim.html" class="nav-link">İletişim</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a href="index.php" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
+                    <a href="login.php" class="btn btn-info text-right" role="button" target="_blank">Oturum Aç</a>
                 </li>
             </ul>
         </div>
@@ -53,15 +54,15 @@
         <h1>İlgi Alanlarım</h1>
     </div>
 
-    <div class="narrow-ilgi-alanlarim">
+    <div class="narrow-ilgi-alanlarim jumbotron">
         <div class="col-md-12">
-            <section class="ozgecmis">
-                <h2>Sevdiğim Hayvan</h2>
+            <section class="ilgi-alanlarim">
+                <h1>Sevdiğim Hayvan</h1>
                 <hr>
-                <p>Hayvan resimlerini görmek için 'Gör' butona basınız</p>
+                <p>Kedi (Kediyi görmek için 'Gör' butona basınız)</p>
                 <div id="cat_result" class="results">
                     <div class="result">
-                        <p>resim yer tutucusu</p>
+                        <p>resim</p>
                     </div>
                 </div>
 
@@ -69,10 +70,27 @@
                     <button id="cat_btn">Gör</button>
                 </div>
             </section>
-            <section class="ozgecmis">
-                <h2>Hobilerim</h2>
+            <section class="ilgi-alanlarim">
+                <h1>Sevdiğim Film/Dizi</h1>
                 <hr>
-                <p></p>
+                <p>Naruto Shippuden, Boruto, One Piece, Bleach, One Punch Man vs</p>
+                <div class="body-anime">
+                    <div class="container-anime">
+                        <div class="row">
+                            <form id="search_form" class="col s12 form-inline">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input placeholder="Anime ara..." name="search" id="search" type="text" class="validate form-control mb-2 mr-sm-2">
+                                        <input type="submit" class="btn btn-primary mb-2" value="Ara" name="search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="search-results" class="container">
+                        
+                    </div>
+                </div>
             </section>
         </div>
     </div>
@@ -96,8 +114,10 @@
     </div>
     <!--İletişim bitiyor-->
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="api.js"></script>
+    <script src="./api.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
