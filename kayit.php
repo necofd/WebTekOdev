@@ -29,7 +29,7 @@ require "baglan.php";
             <input type="password" name="password_again" placeholder="Şifre girin">
             <button href="kayit.php" name="kayit">Kayıt ol</button>
         </form>
-        <a href="login.php"><button class="btn btn-primary btn-block">Giriş Yap</button></a>
+        <a href="login.html"><button class="btn btn-primary btn-block">Giriş Yap</button></a>
     </div>
 
     <!-- Bootstrap JS -->
